@@ -1,0 +1,111 @@
+h1 {
+	font-size: 55px;
+	text-align: center;
+	color: red;
+	text-shadow: 3px 3px white;
+}
+
+h2 {
+	font-size: 40px;
+	text-align: center;
+	color: red;
+	font-family: 'Brush Script MT', cursive;
+}
+
+h3 {
+	font-size: 40px;
+	text-align: center;
+	color: red;
+	font-family: 'Brush Script MT', cursive;
+}
+
+h4 {
+	font-size: 40px;
+	text-align: center;
+	color: red;
+	font-family: 'Brush Script MT', cursive;
+}
+
+img {
+	width: 670px;
+	height: 500px;
+    display: block;
+}
+
+iframe {
+	width: 670px;
+	height: 500px;
+    display: block;
+    margin: auto;
+}
+
+body {
+  background-image: url(https://img.yellohvillage.fr/var/plain_site/storage/images/site_marchand/choisissez_votre_camping/par_ville/carnon/342021-25-fre-FR/carnon.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 1350px;
+  background-position: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: rgba(242, 242, 242, 0.7);
+  padding: 10px;
+  text-align: center;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgba(242, 242, 242, 0.7);
+} 
+
+.topnav a {
+  float: left;
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.topnav a:hover {
+  background-color: red;
+  color: white;
+}
+
+p.dashed {
+	border-style: dashed;
+	font-size: 46px;
+	text-align: center;
+	color: red;
+	margin-right: 20px;
+	margin-left: 20px;
+	background-color: white;
+}
+
+p.dashed2 {
+	border-style: dashed;
+	font-size: 55px;
+	text-align: center;
+	color: white;
+	margin-right: 20px;
+	margin-left: 20px;
+	background-color: red;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+th, td {
+  border: 2px solid red;
+  background-color: white;
+  color: red;
+}
